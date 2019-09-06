@@ -10,7 +10,7 @@
 
 #### [下载地址][https://www.consul.io/downloads.html]
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml23532\wps1.jpg) 
+![img](https://github.com/Canaban0305/Images/blob/master/wps1.jpg?raw=true) 
 
 #### ****设置系统环境变量：添加 计算机 右键 属性 高级属性设置环境变量设置
 
@@ -90,3 +90,10 @@ Public static void Register()
 #### ****手动注册Consul：http://localhost:8500/v1/agent/service/register
 
 ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml23532\wps10.jpg) 
+
+
+
+
+
+![](C:\Users\Administrator\Desktop\Documents\Images\wps2.jpg)
+
