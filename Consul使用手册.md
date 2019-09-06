@@ -10,19 +10,19 @@
 
 #### [下载地址][https://www.consul.io/downloads.html]
 
-![img](https://github.com/Canaban0305/Images/blob/master/wps1.jpg?raw=true) 
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/wps1.jpg?raw=true) 
 
 #### ****设置系统环境变量：添加 计算机 右键 属性 高级属性设置环境变量设置
 
-![img](https://github.com/Canaban0305/Images/blob/master/wps2.jpg?raw=true) 
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/wps2.jpg?raw=true) 
 
 
 
-![img](https://github.com/Canaban0305/Images/blob/master/wps3.png?raw=true) 
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/wps3.png?raw=true) 
 
 #### ****cmd运行：****consul agent -dev
 
-![img](https://github.com/Canaban0305/Images/blob/master/wps4.jpg?raw=true) 
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/wps4.jpg?raw=true) 
 
  
 
@@ -63,23 +63,23 @@ Public static void Register()
 
 - ##### 在Startup的Configure里运行该方法
 
-![img](https://github.com/Canaban0305/Images/blob/master/wps5.jpg?raw=true) 
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/wps5.jpg?raw=true) 
 
 #### ****到Consul上查看
 
-![img](https://github.com/Canaban0305/Images/blob/master/wps6.jpg?raw=true) 
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/wps6.jpg?raw=true) 
 
-![img](https://github.com/Canaban0305/Images/blob/master/wps7.jpg?raw=true) 
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/wps7.jpg?raw=true) 
 
  
 
 #### ****查看微服务上所有注册程序：**[**http://localhost:8500/v1/agent/services]
 
-![img](https://github.com/Canaban0305/Images/blob/master/wps8.jpg?raw=true) 
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/wps8.jpg?raw=true) 
 
 #### ****根据服务id获取该服务信息：**[**http://localhost:8500/v1/agent/service/****服务id]
 
-![img](https://github.com/Canaban0305/Images/blob/master/wps9.jpg?raw=true) 
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/wps9.jpg?raw=true) 
 
  
 
@@ -89,7 +89,7 @@ Public static void Register()
 
 #### ****手动注册Consul：http://localhost:8500/v1/agent/service/register
 
-![img](https://github.com/Canaban0305/Images/blob/master/wps10.jpg?raw=true) 
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/wps10.jpg?raw=true) 
 
 
 
