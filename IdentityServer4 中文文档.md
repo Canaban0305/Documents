@@ -4,7 +4,9 @@
 
 
 
-# 一、背景
+# 一、简介
+
+## 1.1、背景
 
 ------
 
@@ -59,7 +61,7 @@ OpenID Connect和OAuth2非常相似 —— 实际上前者是后者的顶级扩�
 
 你可以根据你的需要使用尽可能复杂的宿主应用程序。但是，为了保持受攻击面尽可能小, 我们一般建议你只将认证相关的UI包含进来。
 
-# 二、相关术语
+## 1.2、相关术语
 
 ------
 
@@ -110,7 +112,7 @@ IdentityServer 包含一些职责和功能：
 
 访问令牌用来授予访问某个 API 资源的权限。客户端请求访问令牌，然后被导向 API。访问令牌包含了客户端和用户（如果提供了的话）的相关信息，API通过这些信息来给它们授予数据访问权限。
 
-# 三、已支持的规范
+## 1.3、已支持的规范
 
 ------
 
@@ -134,7 +136,7 @@ IdentityServer实现了以下规范：
 - 代码交换证明密钥（[RFC 7636](https://tools.ietf.org/html/rfc7636)）
 - 用于客户端身份验证的JSON Web令牌（[RFC 7523](https://tools.ietf.org/html/rfc7523)）
 
-# 四、打包和合并
+## 1.4、打包和合并
 
 ------
 
@@ -178,7 +180,7 @@ https://www.myget.org/F/identity/
 
 
 
-# 五、支持和咨询选项
+## 1.5、支持和咨询选项
 
 ------
 
@@ -236,7 +238,7 @@ https://gitter.im/IdentityServer/IdentityServer4
 
 如果你对使用 IdentityServer 的商业支持感兴趣，请查看 https://www.identityserver.com/upcoming-products 。
 
-# 六、示例服务器和测试
+## 1.6、示例服务器和测试
 
 ------
 
@@ -244,7 +246,7 @@ https://gitter.im/IdentityServer/IdentityServer4
 
 此外我们还有一个包含大量IdentityServer与网页API组合演练的仓库（IdentityServer 3和4，ASP.NET核心和卡塔纳），我们使用该测试装置来确保所有排列能正常工作。可以你[克隆该仓库](https://github.com/IdentityServer/CrossVersionIntegrationTests)以自行对它进行测试。
 
-# 七、贡献
+## 1.7、贡献
 
 ------
 
@@ -290,7 +292,11 @@ https://gitter.im/IdentityServer/IdentityServer4
 
 不建议的命名方式: IdentityServer4.MongoDb
 
-# 八、设置和概览
+
+
+# 二、快速入门
+
+## 2.1、设置和概览
 
 ------
 
@@ -404,7 +410,7 @@ public class Program
 
 通常你首先要启动 IdentityServer，然后是 API，然后是 Client。只有在你想要调试的时候才在调试模式下运行，否则 Ctrl+F5 是运行项目的最佳方式。
 
-# 九、使用客户端凭证保护API
+## 2.2、使用客户端凭证保护API
 
 ------
 
@@ -618,7 +624,7 @@ var  response  =  等待 客户端。GetAsync（“ http：// localhost：5001 /
 - 不向API发送令牌
 - 配置API为需要有所令牌中的范围
 
-# 十、使用密码保护API
+## 2.3、使用密码保护API
 
 ------
 
@@ -732,7 +738,7 @@ Console.WriteLine("\n\n");
 
 `sub` 信息的存在（或缺失）使得 API 能够区分代表客户端的调用和代表用户的调用。
 
-# 十一、添加基于 OpenID Connect 的用户认证
+## 2.4、添加基于 OpenID Connect 的用户认证
 
 ------
 
@@ -960,7 +966,7 @@ public static List<TestUser> GetUsers()
 
 值得注意的是，对令牌中身份信息的遍历是一个扩展点 - `IProfileService`。因为我们正在使用 `AddTestUser`，所以默认使用的是 `TestUserProfileService`。你可以检出[这里的源代码](https://github.com/IdentityServer/IdentityServer4/blob/dev/src/IdentityServer4/Test/TestUserProfileService.cs)来查看它的工作原理。
 
-# 十二、（快速入门）添加外部认证支持
+## 2.5、（快速入门）添加外部认证支持
 
 ------
 
@@ -1135,7 +1141,7 @@ public async Task<IActionResult> CallApiUsingUserAccessToken()
 }
 ```
 
-# 十三、（快速入门）切换到混合流并添加API访问
+## 2.6、切换到混合流并添加API访问
 
 ------
 
@@ -1240,7 +1246,7 @@ OpenID Connect中间件会自动为你保存令牌（身份令牌，访问令牌
 }
 ```
 
-# 十四、（快速入门）使用 ASP.NET Core Identity
+## 2.7、使用 ASP.NET Core Identity
 
 ------
 
@@ -1423,7 +1429,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerF
 
 [当前快速入门的样例代码](https://github.com/IdentityServer/IdentityServer4.Samples/tree/dev/Quickstarts/6_AspNetIdentity)已经为你完成了这些步骤，所以你可以快速地开始使用所有这些特性。祝你愉快！
 
-# 十五、（快速入门）添加 JavaScript 客户端
+## 2.8、添加 JavaScript 客户端
 
 ------
 
@@ -1723,7 +1729,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerF
 
 你现在已经入门了使用 IdentityServer 进行登录，注销以及认证 Web API 调用的 JavaScript 客户端应用程序。
 
-# 十六、（快速入门）使用EntityFramework Core存储配置数据
+# 2.9、使用EntityFramework Core存储配置数据
 
 ------
 
