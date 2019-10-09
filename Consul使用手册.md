@@ -16,9 +16,9 @@
 
 ![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-1.jpg?raw=true) 
 
-#### ****设置系统环境变量：添加 计算机 右键 属性 高级属性设置环境变量设置
+#### 设置系统环境变量
 
-![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-2.jpg?raw=true) 
+添加 计算机 右键 属性 高级属性设置环境变量设置（选择Consul程序路径）![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-2.jpg?raw=true) 
 
 
 
@@ -101,7 +101,9 @@ http://localhost:8500/v1/agent/service/服务id
 
 
 
-#### ****手动注册Consul：http://localhost:8500/v1/agent/service/register
+#### 手动注册Consul
+
+http://localhost:8500/v1/agent/service/register
 
 ![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-10.jpg?raw=true) 
 
