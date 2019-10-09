@@ -24,9 +24,11 @@
 
 ![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-3.png?raw=true) 
 
-#### ****cmd运行：****consul agent -dev
+#### cmd运行
 
-![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-4.jpg?raw=true) 
+consul agent -dev
+
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-4.png?raw=true) 
 
  
 
@@ -71,19 +73,27 @@ Public static void Register()
 
 #### ****到Consul上查看
 
-![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-6.jpg?raw=true) 
+http://localhost:8500
 
-![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-7.jpg?raw=true) 
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-6.png?raw=true) 
+
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-7.png?raw=true) 
+
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-7_2.png?raw=true) 
 
  
 
-#### ****查看微服务上所有注册程序：**[**http://localhost:8500/v1/agent/services]
+#### 查看微服务上所有注册程序
 
-![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-8.jpg?raw=true) 
+http://localhost:8500/v1/agent/services
 
-#### ****根据服务id获取该服务信息：**[**http://localhost:8500/v1/agent/service/****服务id]
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-8.png?raw=true) 
 
-![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-9.jpg?raw=true) 
+#### 根据服务id获取该服务信息
+
+http://localhost:8500/v1/agent/service/服务id
+
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/Consul-9.png?raw=true) 
 
  
 
