@@ -15,6 +15,6 @@ var order = DB.Queryable<NCLab_Order>().Where(it => it.UserId == userId && it.Or
 
 ~~~c#
 var date = DateTime.Now;
-date.ToString("yyyy-MMM-dd HH:mm:ss")
+date.ToString("yyyy-MM-dd HH:mm:ss")
 ~~~
 
