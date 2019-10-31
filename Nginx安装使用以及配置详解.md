@@ -1,5 +1,3 @@
-
-
 # Nginx安装使用以及配置详解
 
 #### 1、官网下载window版本的Nginx
@@ -8,11 +6,11 @@
 
 
 
-![Nginx-1](C:\Users\Administrator\Desktop\Documents\Images\Nginx-1.png)
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/Nginx-1.png?raw=true) 
 
 #### 2、解压到指定文件夹
 
-![Nginx-1](C:\Users\Administrator\Desktop\Documents\Images\Nginx-2.png)
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/Nginx-2.png?raw=true) 
 
 #### 3、打开conf文件夹，编辑nginx.conf文件
 
@@ -63,7 +61,7 @@ http {
 
 所有新建的.conf文件放到此文件夹中，nginx会自动识别
 
-![Nginx-1](C:\Users\Administrator\Desktop\Documents\Images\Nginx-3.png)
+![img](https://github.com/Canaban0305/Documents/blob/master/Images/Nginx-3.png?raw=true) 
 
 #### 5、server配置
 
