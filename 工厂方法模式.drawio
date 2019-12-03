@@ -1,1 +1,115 @@
-<mxfile host="www.draw.io" modified="2019-12-03T03:53:09.702Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" version="12.3.5" etag="cgzletolffr9uPYdmrdn" type="github" pages="1"><diagram id="rXm6wl3QtuTI-sYdDVS9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-03T06:19:27.630Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="C2c7UqgveoNAu6xfqfoS" version="12.3.5" type="github" pages="1">
+  <diagram id="rXm6wl3QtuTI-sYdDVS9" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-1" value="工厂方法模式" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="373" y="240" width="80" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-2" value="Product" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="450" width="160" height="86" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-3" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pqQxjcVMow1yOYjzWdvv-2">
+          <mxGeometry y="26" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="pqQxjcVMow1yOYjzWdvv-2">
+          <mxGeometry y="52" width="160" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-5" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pqQxjcVMow1yOYjzWdvv-2">
+          <mxGeometry y="60" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-6" value="&lt;br&gt;定义工厂方法所创建的对象的接口" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;padding=6px;" vertex="1" parent="1">
+          <mxGeometry x="50" y="330" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-13" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1" source="pqQxjcVMow1yOYjzWdvv-2" target="pqQxjcVMow1yOYjzWdvv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="350" as="sourcePoint"/>
+            <mxPoint x="140" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-14" value="ConcreteProduct" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="619" width="160" height="86" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-15" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pqQxjcVMow1yOYjzWdvv-14">
+          <mxGeometry y="26" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="pqQxjcVMow1yOYjzWdvv-14">
+          <mxGeometry y="52" width="160" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-17" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pqQxjcVMow1yOYjzWdvv-14">
+          <mxGeometry y="60" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-18" value="&lt;br&gt;具体的产品，实现了Product接口" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;padding=6px;" vertex="1" parent="1">
+          <mxGeometry x="50" y="810" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-19" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1" source="pqQxjcVMow1yOYjzWdvv-18" target="pqQxjcVMow1yOYjzWdvv-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="34" y="774" as="sourcePoint"/>
+            <mxPoint x="84" y="724" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-21" value="" style="endArrow=block;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pqQxjcVMow1yOYjzWdvv-14" target="pqQxjcVMow1yOYjzWdvv-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="382" y="617" as="sourcePoint"/>
+            <mxPoint x="542" y="617" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-22" value="Creator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="424" y="450" width="160" height="86" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-23" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pqQxjcVMow1yOYjzWdvv-22">
+          <mxGeometry y="26" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="pqQxjcVMow1yOYjzWdvv-22">
+          <mxGeometry y="52" width="160" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-25" value="+ FactoryMethod()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pqQxjcVMow1yOYjzWdvv-22">
+          <mxGeometry y="60" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-26" value="&lt;br&gt;声明工厂方法，该方法返回一个Product类型的对象" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;padding=6px;" vertex="1" parent="1">
+          <mxGeometry x="544" y="330" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-27" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1" source="pqQxjcVMow1yOYjzWdvv-22" target="pqQxjcVMow1yOYjzWdvv-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="404" y="350" as="sourcePoint"/>
+            <mxPoint x="454" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-28" value="ConcreteCreator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="619" width="160" height="86" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-29" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pqQxjcVMow1yOYjzWdvv-28">
+          <mxGeometry y="26" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="pqQxjcVMow1yOYjzWdvv-28">
+          <mxGeometry y="52" width="160" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-31" value="+ FactoryMethod()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pqQxjcVMow1yOYjzWdvv-28">
+          <mxGeometry y="60" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-32" value="&lt;br&gt;重定义工厂方法以返回一个ConcreteCreator实例" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;padding=6px;" vertex="1" parent="1">
+          <mxGeometry x="544" y="810" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-33" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1" source="pqQxjcVMow1yOYjzWdvv-32" target="pqQxjcVMow1yOYjzWdvv-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="348" y="774" as="sourcePoint"/>
+            <mxPoint x="398" y="724" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-34" value="" style="endArrow=block;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pqQxjcVMow1yOYjzWdvv-28" target="pqQxjcVMow1yOYjzWdvv-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="696" y="617" as="sourcePoint"/>
+            <mxPoint x="856" y="617" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqQxjcVMow1yOYjzWdvv-35" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="pqQxjcVMow1yOYjzWdvv-28" target="pqQxjcVMow1yOYjzWdvv-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="266" y="836" as="sourcePoint"/>
+            <mxPoint x="426" y="836" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
