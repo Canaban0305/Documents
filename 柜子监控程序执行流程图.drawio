@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-08T08:42:28.534Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="KsnljTThqoRxdG9JEX42" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-08T08:45:42.522Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="5_14cquho1gUz-iUMQdW" version="12.4.9" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -236,13 +236,13 @@
         <mxCell id="UQhNOVVjy30IoHvUPy2a-70" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="430" y="400" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="UQhNOVVjy30IoHvUPy2a-82" value="计时器：timer&lt;br&gt;执行间隔：10000ms&lt;br&gt;一直执行" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
+        <mxCell id="UQhNOVVjy30IoHvUPy2a-82" value="计时器：timer&lt;br&gt;执行间隔：10000ms&lt;br&gt;一直执行" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=24;" parent="1" vertex="1">
           <mxGeometry x="280" y="690" width="130" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="ZWhGvF26r6JHexXq590v-56" value="计时器：timer&lt;br&gt;执行间隔：30min" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="ZWhGvF26r6JHexXq590v-56" value="计时器：timer&lt;br&gt;执行间隔：30min" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=25;" vertex="1" parent="1">
           <mxGeometry x="255" y="1970" width="130" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="ZWhGvF26r6JHexXq590v-72" value="计时器：timer&lt;br&gt;执行间隔：5min" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="ZWhGvF26r6JHexXq590v-72" value="计时器：timer&lt;br&gt;执行间隔：5min" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=25;" vertex="1" parent="1">
           <mxGeometry x="255" y="2260" width="130" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="UQhNOVVjy30IoHvUPy2a-83" value="" style="endArrow=none;dashed=1;html=1;" parent="1" source="UQhNOVVjy30IoHvUPy2a-82" target="UQhNOVVjy30IoHvUPy2a-79" edge="1">
@@ -314,13 +314,13 @@
         <mxCell id="ZWhGvF26r6JHexXq590v-65" value="更新失败" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="2170" width="65" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="ZWhGvF26r6JHexXq590v-74" value="计时器：&lt;span style=&quot;text-align: center&quot;&gt;InitLaterTimer&lt;/span&gt;&lt;br&gt;执行间隔：1000ms&lt;br&gt;一直执行" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="ZWhGvF26r6JHexXq590v-74" value="计时器：&lt;span style=&quot;text-align: center&quot;&gt;InitLaterTimer&lt;/span&gt;&lt;br&gt;执行间隔：1000ms&lt;br&gt;一直执行" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=18;" vertex="1" parent="1">
           <mxGeometry x="695" y="110" width="130" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="ZWhGvF26r6JHexXq590v-79" value="无新版本" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="2057" width="70" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="ZWhGvF26r6JHexXq590v-81" value="计时器：timer&lt;br&gt;执行间隔：1min&lt;br&gt;一直执行" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="ZWhGvF26r6JHexXq590v-81" value="计时器：timer&lt;br&gt;执行间隔：1min&lt;br&gt;一直执行" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=22;" vertex="1" parent="1">
           <mxGeometry x="720" y="1760" width="130" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="ZWhGvF26r6JHexXq590v-82" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
